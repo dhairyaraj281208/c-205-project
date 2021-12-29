@@ -119,7 +119,7 @@ def askPlayerName():
     screen_width = nameWindow.winfo_screenwidth()
     screen_height = nameWindow.winfo_screenheight()
 
-    bg = ImageTk.PhotoImage(file = "./assets/background.png")
+    bg = ImageTk.PhotoImage(file = "D:/Web Module/c 205/project/assets/background.png")
 
     canvas1 = Canvas( nameWindow, width = 500,height = 500)
     canvas1.pack(fill = "both", expand = True)
